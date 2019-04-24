@@ -73,7 +73,7 @@ public class RSSignatureCaptureMainView extends LinearLayout implements OnClickL
     if (viewMode.equalsIgnoreCase("portrait")) {
       mActivity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     } else if (viewMode.equalsIgnoreCase("landscape")) {
-      mActivity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+      mActivity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE);
     }
   }
 
